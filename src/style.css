@@ -1,20 +1,37 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* Header styling section */
-body > header {
-    display: flex;
-    position: sticky;
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    color: beige;
+    padding: 1rem;
 }
 
-body > header > ul {
+header > ul {
     display: flex;
-    list-style-type: none;
+    gap: 2rem;
+    font-size: 2rem;
+    list-style: none;
+}
+
+/* Main content section, some styles will be changed by javascript */
+main {
+    min-height: 100vh;
 }
 
 
-#content {
-    background-image: url("home-image.jpg");
+/* Footer stylyng */
+footer {
+    background-color: black;
+    color: beige;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
