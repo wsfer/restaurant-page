@@ -39,6 +39,47 @@ main {
     padding: 1rem;
     flex-direction: column;
     color: beige;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+#home-descriptor > ul {
+    margin-left: 1rem;
+}
+
+#menu-container {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    color: beige;
+}
+
+#menu-container > .flavor {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 2px gray;
+}
+
+.flavor > img {
+    height: 5rem;
+    width: 5rem;
+    margin-left: 1rem;
+    border-radius: 1rem;
+}
+
+.flavor > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flavor:hover {
+    bottom: 2px;
 }
 
 /* Footer stylyng */
@@ -49,4 +90,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;    
+}
+
+footer a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }

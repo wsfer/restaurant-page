@@ -1,0 +1,14 @@
+{
+    "name": [
+        "Margherita Pizza",
+        "Shrimp Pizza",
+        "Pepperoni Pizza",
+        "Chicken Pizza"
+    ],
+    "price": [
+        "$5",
+        "$7",
+        "$5",
+        "$8"
+    ]
+}
