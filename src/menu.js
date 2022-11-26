@@ -43,6 +43,8 @@ export default function createMenuPage (eventTarget) {
         const p = document.createElement('p');
         p.textContent = data.price[i];
         p.style.color = 'goldenrod';
+        p.style.fontWeight = 'bold';
+        p.style.fontSize = '1.5rem';
         div.appendChild(p);
         section.appendChild(div);
         frag.appendChild(section);
