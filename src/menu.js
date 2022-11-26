@@ -1,3 +1,3 @@
-export default function createMenuPage () {
-    //
+export default function createMenuPage (eventTarget) {
+    eventTarget.id = 'selectedTab';
 }

@@ -20,7 +20,12 @@ header > ul {
     list-style: none;
 }
 
-/* Main content section, some styles will be changed by javascript */
+#selectedTab {
+    color: goldenrod;
+    font-weight: bold;
+}
+
+/* Main content section */
 main {
     min-height: 100vh;
 }

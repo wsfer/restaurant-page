@@ -1,3 +1,3 @@
-export default function createHomePage () {
-    //
+export default function createHomePage (eventTarget) {
+    eventTarget.id = 'selectedTab';
 }

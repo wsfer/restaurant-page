@@ -1,3 +1,3 @@
-export default function createContactPage () {
-    //
+export default function createContactPage (eventTarget) {
+    eventTarget.id = 'selectedTab';
 }
