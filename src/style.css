@@ -28,8 +28,18 @@ header > ul {
 /* Main content section */
 main {
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
+#home-descriptor {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    color: beige;
+}
 
 /* Footer stylyng */
 footer {
