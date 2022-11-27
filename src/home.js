@@ -19,7 +19,7 @@ export default function createHomePage (eventTarget) {
     const descriptor = document.createElement('section');
     descriptor.id = 'home-descriptor';
     const h2 = document.createElement('h2');
-    h2.textContent = 'Restaurant';
+    h2.textContent = 'Pizzas';
     descriptor.appendChild(h2);
 
     const ul = document.createElement('ul');

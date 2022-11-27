@@ -3,7 +3,7 @@ export default function loadPage () {
     //Create header
     const header = document.createElement('header');
     const h1 = document.createElement('h1');
-    h1.textContent = 'Restaurant';
+    h1.textContent = 'Pizzas';
     header.appendChild(h1);
     const ul = document.createElement('ul');
     for (let name of tabsNames) {
@@ -24,6 +24,7 @@ export default function loadPage () {
     p.textContent = 'A project idea from ';
     const anchor = document.createElement('a');
     anchor.href = 'https://www.theodinproject.com';
+    anchor.target = '_blank';
     anchor.textContent = 'The Odin Project';
     p.appendChild(anchor);
     footer.appendChild(p);
