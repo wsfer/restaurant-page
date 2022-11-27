@@ -17,6 +17,10 @@ header {
     padding: 1rem;
 }
 
+header > h1 {
+    color: goldenrod;
+}
+
 header > ul {
     display: flex;
     gap: 2rem;
@@ -106,8 +110,12 @@ main {
     font-size: 1.4rem;
 }
 
-#contact-container > p > span {
-    font-weight: bold;
+#contact-container > div {
+    margin: 1rem;
+}
+
+#contact-container > div > h3 {
+    color: goldenrod;
 }
 
 /* Footer stylyng */
